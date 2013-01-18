@@ -1,0 +1,27 @@
+/**
+ *Twitter.java
+ *@author Erich Harkema
+ *PLEDGE:
+ *Desc: The Twitter class creates an array of valid tweets and invalid tweets, then outputs the valid and invalid 
+ *tweets
+ */
+import java.util.ArrayList;
+import java.util.Scanner;
+import java.io.File
+
+public class Twitter {
+
+    public static void main (String []args) {
+	Scanner scan;
+	File Tweetdoc;
+	 
+
+	 scan = new Scanner(Tweetdoc);
+	 Tweetdoc = new File ("Tweets.txt");
+
+	ArrayList<Tweet> Tweet;
+	ArrayList<String> invalid;
+
+	Tweet = new ArrayList();
+	invalid = new ArrayList();
+	

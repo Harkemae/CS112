@@ -1,0 +1,39 @@
+//*************************************************************************
+//Erich Harkema
+//CS112, Introduction to Computer Science II
+//SpringFall Semester, 2013-2014
+//Lab 1
+//Tweet.java
+//
+//*************************************************************************
+import java.util.Date;
+
+public class Tweet {
+
+    private int currentDate;  //sets the current Date variables to track the msg date
+    private String message;  // creates the string value for a twitter message
+
+    public Tweet() {
+	this.currentDate = currentDate;
+       
+	
+    }
+
+    public static boolean isValidMessage(String message) {
+	
+	if (message.length > 0 && message.length <=140)
+	    return true;
+	else
+	    return false;
+    }
+
+    
+	public void setMessage(String message) {
+        this.message = message;
+
+	}
+
+    public String toString() {
+	return System.out.println ("" + currentDate + "" + message);
+    }
+}
